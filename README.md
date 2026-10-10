@@ -65,7 +65,7 @@ Below is a curated comparison of leading commercial conversation intelligence an
 
 ## ⚡ Open-Source GitHub Projects
 
-Open-source sales conversation intelligence is accelerating rapidly. Below are top self-hosted repositories, speech engines, and AI frameworks sorted by GitHub Stars_Count (Descending).
+Open-source sales conversation intelligence is accelerating rapidly. Below are top self-hosted repositories, speech engines, and AI frameworks sorted by GitHub_Stars_Count (Descending).
 
 ### 🚀 Full Conversation Intelligence Platforms
 
