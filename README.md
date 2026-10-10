@@ -65,7 +65,7 @@ Below is a curated comparison of leading commercial conversation intelligence an
 
 ## ⚡ Open-Source GitHub Projects
 
-Open-source sales conversation intelligence is accelerating rapidly. Below are top self-hosted repositories, speech engines, and AI frameworks sorted by GitHub Star Count (Descending).
+Open-source sales conversation intelligence is accelerating rapidly. Below are top self-hosted repositories, speech engines, and AI frameworks sorted by GitHub Stars_Count (Descending).
 
 ### 🚀 Full Conversation Intelligence Platforms
 
@@ -196,3 +196,12 @@ If you find this repository valuable for your research, sales stack, or engineer
 - This list is **community-curated** for educational and research purposes.
 - **Privacy & Compliance**: Sales call recording and speech transcription handle sensitive personal data. Verify compliance with regional regulations (GDPR, CCPA, HIPAA) and **two-party call recording consent laws** (e.g., California, Illinois).
 - All brand names, logos, and trademarks belong to their respective owners.
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Sales-Conversation-Intelligence&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Sales-Conversation-Intelligence_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Sales-Conversation-Intelligence_growth.svg">
+  </picture>
+</a>
