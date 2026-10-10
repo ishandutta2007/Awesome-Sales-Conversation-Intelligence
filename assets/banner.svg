@@ -6,10 +6,10 @@
       <stop offset="50%" stop-color="#1e1b4b"/>
       <stop offset="100%" stop-color="#311042"/>
     </linearGradient>
-    
+
     <!-- Dynamic Glowing Grid Pattern -->
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(139, 92, 246, 0.15)" stroke-width="1"/>
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#8b5cf6" stroke-opacity="0.15" stroke-width="1"/>
     </pattern>
 
     <!-- Linear Gradient for Accents -->
@@ -20,8 +20,8 @@
     </linearGradient>
 
     <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.07)"/>
-      <stop offset="100%" stop-color="rgba(255, 255, 255, 0.02)"/>
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
     </linearGradient>
 
     <!-- Glow Effect Filter -->
@@ -33,20 +33,20 @@
 
   <style>
     .title {
-      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
       font-weight: 800;
-      font-size: 46px;
+      font-size: 42px;
       fill: #ffffff;
       letter-spacing: -0.5px;
     }
     .subtitle {
-      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
       font-weight: 400;
       font-size: 20px;
       fill: #cbd5e1;
     }
     .badge-text {
-      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
       font-weight: 600;
       font-size: 13px;
       fill: #e2e8f0;
@@ -55,13 +55,6 @@
       fill: none;
       stroke-linecap: round;
       opacity: 0.6;
-    }
-    .animated-pulse {
-      animation: pulse 3s ease-in-out infinite alternate;
-    }
-    @keyframes pulse {
-      0% { opacity: 0.3; transform: scale(0.98); }
-      100% { opacity: 0.8; transform: scale(1.02); }
     }
   </style>
 
@@ -96,42 +89,42 @@
   <circle cx="200" cy="80" r="100" fill="#8b5cf6" opacity="0.15" filter="url(#glow)"/>
   <circle cx="1000" cy="220" r="120" fill="#ec4899" opacity="0.12" filter="url(#glow)"/>
 
-  <!-- Foreground Content Block (Ensures titles remain crisp and unobstructed) -->
+  <!-- Foreground Content Block -->
   <g transform="translate(60, 0)">
     <!-- Top Pill Badge -->
     <g transform="translate(0, 42)">
-      <rect width="320" height="32" rx="16" fill="url(#card-grad)" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1"/>
+      <rect width="320" height="32" rx="16" fill="url(#card-grad)" stroke="#ffffff" stroke-opacity="0.2" stroke-width="1"/>
       <circle cx="18" cy="16" r="5" fill="#10b981">
         <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
       </circle>
-      <text x="32" y="21" class="badge-text">🎙️ Sales Conversation Intelligence Ecosystem</text>
+      <text x="32" y="21" class="badge-text">Sales Conversation Intelligence Ecosystem</text>
     </g>
 
     <!-- Main Title -->
-    <text x="0" y="125" class="title">Awesome Sales Conversation Intelligence 🚀</text>
+    <text x="0" y="125" class="title">Awesome Sales Conversation Intelligence</text>
 
     <!-- Accent Underline Bar -->
     <rect x="0" y="142" width="680" height="4" rx="2" fill="url(#accent-grad)"/>
 
     <!-- Subtitle -->
-    <text x="0" y="182" class="subtitle">Curated SaaS Platforms & Open-Source AI Call Analytics Engines</text>
-    <text x="0" y="210" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" fill="#94a3b8">
+    <text x="0" y="182" class="subtitle">Curated SaaS Platforms &amp; Open-Source AI Call Analytics Engines</text>
+    <text x="0" y="210" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" fill="#94a3b8">
       Call Recording • AI Diarization • Deal Risk Detection • Real-Time Sales Coaching • Revenue Intelligence
     </text>
 
-    <!-- Bottom Feature Cards (Positioned lower so titles are fully in foreground) -->
+    <!-- Bottom Feature Cards -->
     <g transform="translate(0, 235)">
       <g transform="translate(0, 0)">
-        <rect width="170" height="34" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(139, 92, 246, 0.4)" stroke-width="1"/>
-        <text x="14" y="22" font-family="'Segoe UI', sans-serif" font-size="13" fill="#c084fc" font-weight="600">📊 Enterprise SaaS</text>
+        <rect width="170" height="34" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#8b5cf6" stroke-opacity="0.4" stroke-width="1"/>
+        <text x="14" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#c084fc" font-weight="600">Enterprise SaaS</text>
       </g>
       <g transform="translate(185, 0)">
-        <rect width="180" height="34" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(236, 72, 153, 0.4)" stroke-width="1"/>
-        <text x="14" y="22" font-family="'Segoe UI', sans-serif" font-size="13" fill="#f472b6" font-weight="600">⚡ Open-Source AI</text>
+        <rect width="180" height="34" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#ec4899" stroke-opacity="0.4" stroke-width="1"/>
+        <text x="14" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#f472b6" font-weight="600">Open-Source AI</text>
       </g>
       <g transform="translate(380, 0)">
-        <rect width="210" height="34" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(59, 130, 246, 0.4)" stroke-width="1"/>
-        <text x="14" y="22" font-family="'Segoe UI', sans-serif" font-size="13" fill="#60a5fa" font-weight="600">🎙️ Offline Diarization</text>
+        <rect width="210" height="34" rx="8" fill="#ffffff" fill-opacity="0.05" stroke="#3b82f6" stroke-opacity="0.4" stroke-width="1"/>
+        <text x="14" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#60a5fa" font-weight="600">Offline Diarization</text>
       </g>
     </g>
   </g>
